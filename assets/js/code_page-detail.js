@@ -32,7 +32,7 @@ function vdo_api_load_movie_detail(id_movie, categ){
 
     let token = '791206cb5e9da02a43f31c8d24a4639f';
     let language = '&language=fr';
-    let image = "../assets/images/croix.svg";
+    let image = "./assets/images/croix.svg";
     let path_img = "";
     let tritre_film = "";
     /*--------------------------------------------------*/
@@ -137,7 +137,7 @@ function vdo_api_load_movie_casting(id_movie, categ){
         let infos = document.querySelector('.casting');
         // construction de l'url de la jaquette 
         let path_img = "";
-        let image = "../assets/images/croix.svg";
+        let image = "./assets/images/croix.svg";
         //tant qu'il y a des films recommandés, on crée des divs pour alimenter
         //la grille des films recommandés
         for (i=0; i<r; i++){
