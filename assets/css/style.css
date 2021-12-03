@@ -185,7 +185,6 @@ body section .gridCards {
   margin: 3vh;
   display: grid;
   grid-template-columns: repeat(1fr);
-  justify-content: center;
   align-items: center;
   gap: 50px;
 }
@@ -487,7 +486,7 @@ body section h2 {
 }
 body section .profil {
   width: 90%;
-  margin-left: auto;
+  margin: auto;
   padding-top: 8%;
 }
 body section .profil .profil__cadre {
